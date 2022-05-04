@@ -1,9 +1,10 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
+import { getCurrentColorTheme } from "../util/prefersDarkMode";
 
 export type colorTheme = "dark" | "light";
 
 interface ColorThemeContextType {
-    colorTheme: colorTheme;
+    colorTheme: colorTheme | null;
     changeColorTheme: () => void;
 }
 export const ColorThemeContext = createContext<ColorThemeContextType>({
@@ -18,7 +19,10 @@ interface Props {
 }
 
 const ColorThemeContextProvider: React.FC<Props> = ({ children }) => {
-    const [colorTheme, changeColorTheme] = useState<colorTheme>("dark");
+    const [colorTheme, changeColorTheme] = useState<colorTheme | null>("dark");
+    useEffect(() => {
+        changeColorTheme(getCurrentColorTheme());
+    }, []);
     return (
         <ColorThemeContext.Provider
             value={{
