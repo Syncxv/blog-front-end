@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
-import { useContext } from "react";
+import Button from "../components/atoms";
 import Layout from "../components/Layout";
-import { ColorThemeContext } from "../context/ColorThemeContext";
 
 const Home: NextPage = () => {
     return (
         <>
-            <Layout></Layout>
+            <Layout>
+                <Button>Hi</Button>
+            </Layout>
         </>
     );
 };

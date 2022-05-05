@@ -1,4 +1,4 @@
-import { FC, ReactNode, useContext, useState } from "react";
+import { FC, ReactNode, useContext } from "react";
 import { ColorThemeContext } from "../context/ColorThemeContext";
 import NavBar from "./NavBar";
 
