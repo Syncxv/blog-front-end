@@ -3,8 +3,11 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "dark-primary": "var(--bg-dark-primary)",
-                "light-primary": "var(--bg-light-primary)",
+                "dark-primary": "var(--dark-primary)",
+                "dark-secondary": "var(--dark-secondary)",
+                "dark-secondary-400": "var(--dark-secondary-400)",
+                "dark-action": "var(--dark-action)",
+                "light-primary": "var(--light-primary)",
             },
         },
     },

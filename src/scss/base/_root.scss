@@ -1,4 +1,10 @@
 :root {
-    --bg-dark-primary: rgb(31, 0, 41);
-    --bg-light-primary: rgb(230, 177, 247);
+    --l: 50%;
+
+    --dark-primary: hsl(324, 19%, 5%);
+    --dark-secondary: hsl(324, 19%, 10%);
+    --dark-secondary-400: hsl(342, 19%, 15%);
+    --dark-action: hsl(324, 86%, 57%);
+
+    --light-primary: hsl(284, 100%, 95%);
 }
