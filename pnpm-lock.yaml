@@ -8,6 +8,7 @@ specifiers:
   eslint: 8.14.0
   eslint-config-next: 12.1.6
   next: 12.1.6
+  phosphor-react: ^1.4.1
   postcss: ^8.4.13
   react: 18.1.0
   react-dom: 18.1.0
@@ -17,6 +18,7 @@ specifiers:
 
 dependencies:
   next: 12.1.6_008f76c92927c3d3636842a829086498
+  phosphor-react: 1.4.1_react@18.1.0
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
 
@@ -1612,6 +1614,15 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
     dev: true
+
+  /phosphor-react/1.4.1_react@18.1.0:
+    resolution: {integrity: sha512-gO5j7U0xZrdglTAYDYPACU4xDOFBTJmptrrB/GeR+tHhCZF3nUMyGmV/0hnloKjuTrOmpSFlbfOY78H39rgjUQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      react: 18.1.0
+    dev: false
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
