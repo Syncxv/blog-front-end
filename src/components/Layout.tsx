@@ -9,7 +9,7 @@ const Layout: FC<Props> = ({ children }) => {
     const { colorTheme } = useContext(ColorThemeContext);
     return (
         <div
-            className={`page-wrapper h-screen w-screen ${colorTheme === "dark" ? "text-white" : "text-black"} ${
+            className={`page-wrapper h-screen w-screen transition-colors duration-300 ${colorTheme === "dark" ? "text-white" : "text-black"} ${
                 colorTheme === "dark" ? "bg-dark-primary" : "bg-light-primary"
             }`}
         >
