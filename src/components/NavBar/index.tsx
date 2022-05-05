@@ -1,7 +1,7 @@
 import { Moon, Sun } from "phosphor-react";
 import { useContext } from "react";
 import { ColorThemeContext } from "../../context/ColorThemeContext";
-import Button from "../atoms";
+import Button from "../atoms/Button";
 
 interface Props {}
 

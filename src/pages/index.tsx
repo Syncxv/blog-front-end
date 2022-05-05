@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Button from "../components/atoms";
+import Button from "../components/atoms/Button";
 import Layout from "../components/Layout";
 
 const Home: NextPage = () => {
