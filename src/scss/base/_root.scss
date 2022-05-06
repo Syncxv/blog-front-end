@@ -6,5 +6,7 @@
     --dark-secondary-400: hsl(342, 19%, 15%);
     --dark-action: hsl(324, 86%, 57%);
 
-    --light-primary: hsl(284, 100%, 95%);
+    --light-primary: hsl(0, 0%, 93%);
+    --light-secondary: hsl(0, 0%, 100%);
+    --light-action: var(--dark-action);
 }

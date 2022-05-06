@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Button from "../components/atoms/Button";
+import BlogFeed from "../components/BlogFeed";
 import Layout from "../components/Layout";
 
 const Home: NextPage = () => {
@@ -7,6 +8,7 @@ const Home: NextPage = () => {
         <>
             <Layout>
                 <Button>Hi</Button>
+                <BlogFeed />
             </Layout>
         </>
     );

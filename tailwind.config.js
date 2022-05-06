@@ -1,4 +1,5 @@
 module.exports = {
+    darkMode: "class",
     content: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
@@ -8,6 +9,8 @@ module.exports = {
                 "dark-secondary-400": "var(--dark-secondary-400)",
                 "dark-action": "var(--dark-action)",
                 "light-primary": "var(--light-primary)",
+                "light-secondary": "var(--light-secondary)",
+                "light-action": "var(--light-action)",
             },
         },
     },

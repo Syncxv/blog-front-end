@@ -8,7 +8,7 @@ interface Props {
 const Button: React.FC<Props & React.HTMLAttributes<HTMLButtonElement>> = ({ children, isIcon, className, ...props }) => {
     const { colorTheme } = useContext(ColorThemeContext);
     return (
-        <button {...props} className={`${colorTheme === "dark" ? "btn-dark" : "btn-light"} ${isIcon && "p-3"} ${className || ""}`.trim()}>
+        <button {...props} className={`btn ${isIcon && "p-3"} ${className || ""}`.trim()}>
             {children}
         </button>
     );
