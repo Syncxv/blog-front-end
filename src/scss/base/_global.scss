@@ -14,9 +14,3 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
-
-@layer components {
-    .btn {
-        @apply text-black bg-light-secondary hover:bg-slate-300 font-medium rounded-xl text-sm px-5 py-2.5 mr-2 mb-2 dark:text-white dark:bg-dark-secondary dark:hover:bg-dark-secondary-400;
-    }
-}
