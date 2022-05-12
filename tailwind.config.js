@@ -3,6 +3,9 @@ module.exports = {
     content: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
+            gridTemplateColumns: {
+                "auto-fit": "repeat(auto-fit, minmax(23rem, 1fr))",
+            },
             colors: {
                 "dark-primary": "var(--dark-primary)",
                 "dark-secondary": "var(--dark-secondary)",
