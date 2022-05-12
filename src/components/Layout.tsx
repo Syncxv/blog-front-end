@@ -10,7 +10,7 @@ const Layout: FC<Props> = ({ children }) => {
     return (
         <div className={`wrapper-for-the-page-warpper-:) ${colorTheme}`}>
             <div
-                className={`page-wrapper text-black bg-light-primary h-screen w-screen transition-colors duration-300 dark:text-white dark:bg-dark-primary`}
+                className={`page-wrapper h-auto text-black bg-light-primary min-h-screen w-screen transition-colors duration-300 dark:text-white dark:bg-dark-primary`}
             >
                 <NavBar />
                 {children}
